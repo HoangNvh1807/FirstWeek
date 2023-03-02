@@ -28,16 +28,11 @@ function App() {
     <div className="App">
       <div>
         <div className="relative">
-          <div className="absolute top-0 w-[100vw] text-white font-bold">
+          <div className="absolute top-0 w-[100vw] text-black font-bold">
             <div className="flex flex-row ml-[20%]  gap-10">
               <div>
                 {" "}
-                <img
-                  className="w-[100px] h-[100px]"
-                  src={logoPicture}
-                  width="500"
-                  height="600"
-                ></img>
+                <img className="w-[180px] h-[180px]" src={logoPicture}></img>
               </div>
               <div className="flex flex-row  mt-[3%] gap-10">
                 {" "}
@@ -53,7 +48,7 @@ function App() {
           <div className="">
             {" "}
             <img
-              className="w-[100000px] h-[1050px] "
+              className=" w-[100000px] h-[1050px] "
               src={picture[numberPicter]}
             ></img>
           </div>
